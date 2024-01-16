@@ -165,6 +165,7 @@ p,li{
     background-color: #E9444433;
     padding: 20px;
     width: 40%;
+    border-radius: 20px;
   }
   .dealItem>.mainCol{
     margin: 30px;
