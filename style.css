@@ -1,7 +1,9 @@
+
 *{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
+    font-family: 'Mulish', sans-serif;
 }
 p,li{
   color:rgba(19, 19, 24, 0.70);
@@ -204,6 +206,7 @@ p,li{
     flex-direction: column;
     justify-content: flex-end;
     padding: 10px;
+    gap: 53px;
     text-align: center;
   }
   section.ourTour.container ul li {
@@ -390,4 +393,7 @@ nav, .logo, nav>.menu>ul {
   align-items: center;
 }
   
+}
+input[type="button"] {
+  width: 100%!important;
 }
