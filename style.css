@@ -336,7 +336,7 @@ grid-template-columns: 100%;
   margin: 4px 0px;
 }
 .textPrimary{
-  font-size: 16px;
+  font-size: 20px;
   margin: 10px 0;
 }
 .dealItem {
@@ -369,6 +369,16 @@ grid-template-columns: 100%;
 }
 .newsletter {
   flex-direction: column;
+}
+.newsletter .column {
+  width: 100%;
+}
+.logo img {
+  width: 28.72px;
+  height: 33.52px;
+}
+nav, .logo, nav>.menu>ul {
+  align-items: center;
 }
   
 }
