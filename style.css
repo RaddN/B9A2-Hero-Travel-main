@@ -338,7 +338,12 @@ grid-template-columns: 100%;
   font-weight: 800;
 }
 .iconContainer {
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: center;
+}
+.iconpack {
+  width: 44%;
 }
 .dealItem .mainCol p {
   width: 100%;
